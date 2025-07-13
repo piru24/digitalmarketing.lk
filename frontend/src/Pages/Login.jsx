@@ -21,7 +21,7 @@ const Login = () => {
       localStorage.setItem('token', res.data.token);
       setMsg('Login successful');
 
-      setTimeout(() => navigate('/grocery'), 1000);
+      setTimeout(() => navigate('/'), 1000);
     } catch (err) {
       setMsg(err.response?.data?.msg || 'Login failed');
     }

@@ -13,7 +13,7 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/verify-otp" element={<VerifyOTP />} />
        <Route path="/login" element={<Login />} />
-       <Route path="/grocery" element={<GroceryDashboard />} />
+       <Route path="/" element={<GroceryDashboard />} />
        <Route path="/grocery-form" element={<GroceryForm />} />
        <Route path="/grocery-list" element={<GroceryList />} />
        <Route path="/report" element={<ReportPage />} />

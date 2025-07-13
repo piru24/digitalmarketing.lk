@@ -58,7 +58,7 @@ const ReportPage = () => {
         {/* 🔝 Top Navigation */}
         <div className="relative z-20 flex justify-end gap-4 p-4 absolute top-0 right-0">
           <button
-            onClick={() => navigate('/grocery')}
+            onClick={() => navigate('/')}
             className="bg-white text-lime-800 p-2 rounded-full hover:bg-lime-100"
             title="Grocery Dashboard"
           >
