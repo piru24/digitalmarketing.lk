@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes pause {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typing-effect {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    width: 0;
+    animation: typing 4s steps(30) 2s forwards, pause 3s 6s infinite, blink 0.75s step-end infinite;
+  }
+  

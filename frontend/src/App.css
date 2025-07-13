@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Change the background color of events */
+.fc-event {
+  background-color: #3498db !important; /* Blue background */
+  color: white !important; /* White text */
+  border: none !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Change hover effect */
+.fc-event:hover {
+  background-color: #2980b9 !important;
+}
+
+/* Customize event title inside the event */
+.fc-event-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Change the background color of today's date */
+.fc-day-today {
+  background-color: rgba(255, 165, 0, 0.3) !important; /* Light orange */
+}
+
+/* Change the calendar header styling */
+.fc-toolbar-title {
+  font-size: 24px !important;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Change day names (Sun, Mon, etc.) */
+.fc-col-header-cell {
+  background-color: #f5f5f5 !important;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Change grid lines */
+.fc-daygrid-day {
+  border: 1px solid #ddd !important;
+}
+
