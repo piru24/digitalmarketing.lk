@@ -54,7 +54,7 @@ Styling  | Tailwind CSS + Animation
 #### 1. Clone the Repository
 
 git clone https://github.com/piru24/digitalmarketing.lk.git
-cd igitalmarketing.lk
+cd digitalmarketing.lk
 
 #### 2. Backend Setup
 
